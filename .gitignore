@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# MacOS DS Stores 
+.DS_Store
+**/.DS_Store
+
+# Local ignores from here on

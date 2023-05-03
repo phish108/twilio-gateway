@@ -1,0 +1,35 @@
+{
+  "name": "twilio-gateway",
+  "version": "1.0.0",
+  "description": "Forward twilio message to AMQP or MQTT queues",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phish108/twilio-gateway.git"
+  },
+  "keywords": [
+    "twilio",
+    "koajs",
+    "rabbitmq",
+    "mqtt",
+    "gateway"
+  ],
+  "author": "Christian Glahn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phish108/twilio-gateway/issues"
+  },
+  "homepage": "https://github.com/phish108/twilio-gateway#readme",
+  "dependencies": {
+    "@koa/router": "12.0.0",
+    "amqplib": "0.10.3",
+    "koa": "2.14.2",
+    "koa-body": "6.0.1",
+    "koa-compose": "4.1.0",
+    "yaml": "2.2.2"
+  }
+}
